@@ -1,0 +1,89 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="160" y1="40" x2="1060" y2="860" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0A1A33" />
+      <stop offset="0.52" stop-color="#0F274A" />
+      <stop offset="1" stop-color="#06111F" />
+    </linearGradient>
+    <linearGradient id="panel" x1="330" y1="180" x2="872" y2="700" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#142B52" stop-opacity="0.95" />
+      <stop offset="1" stop-color="#0B172A" stop-opacity="0.92" />
+    </linearGradient>
+    <linearGradient id="blueGlow" x1="500" y1="130" x2="770" y2="560" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6EC1FF" stop-opacity="0.95" />
+      <stop offset="1" stop-color="#2E7DFF" stop-opacity="0.15" />
+    </linearGradient>
+    <linearGradient id="purpleGlow" x1="840" y1="190" x2="980" y2="390" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#B68DFF" stop-opacity="0.9" />
+      <stop offset="1" stop-color="#B68DFF" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="card" x1="408" y1="290" x2="780" y2="620" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F7FBFF" stop-opacity="0.16" />
+      <stop offset="1" stop-color="#E8F0FF" stop-opacity="0.06" />
+    </linearGradient>
+    <linearGradient id="whatsapp" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#3BFFB7" stop-opacity="0.85" />
+      <stop offset="1" stop-color="#1F8FFF" stop-opacity="0.9" />
+    </linearGradient>
+    <linearGradient id="chair" x1="560" y1="450" x2="820" y2="760" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#EAF2FF" stop-opacity="0.9" />
+      <stop offset="1" stop-color="#BFD3F7" stop-opacity="0.55" />
+    </linearGradient>
+    <filter id="blur" x="0" y="0" width="1200" height="900" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="32" />
+    </filter>
+  </defs>
+
+  <rect width="1200" height="900" rx="48" fill="url(#bg)" />
+  <circle cx="330" cy="180" r="190" fill="#4EA3FF" fill-opacity="0.14" filter="url(#blur)" />
+  <circle cx="980" cy="210" r="130" fill="#B68DFF" fill-opacity="0.18" filter="url(#blur)" />
+  <circle cx="910" cy="710" r="210" fill="#75C6FF" fill-opacity="0.10" filter="url(#blur)" />
+
+  <rect x="170" y="110" width="860" height="680" rx="40" fill="url(#panel)" stroke="rgba(255,255,255,0.1)" />
+  <rect x="214" y="154" width="560" height="420" rx="32" fill="url(#card)" stroke="rgba(255,255,255,0.10)" />
+  <rect x="802" y="154" width="186" height="420" rx="32" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.08)" />
+
+  <rect x="248" y="198" width="220" height="20" rx="10" fill="#D7E8FF" fill-opacity="0.82" />
+  <rect x="248" y="240" width="288" height="16" rx="8" fill="#D7E8FF" fill-opacity="0.34" />
+  <rect x="248" y="270" width="200" height="16" rx="8" fill="#D7E8FF" fill-opacity="0.22" />
+
+  <rect x="246" y="332" width="332" height="158" rx="28" fill="rgba(9,16,33,0.7)" stroke="rgba(255,255,255,0.10)" />
+  <path d="M262 460C304 430 334 406 371 406C411 406 420 454 460 454C506 454 515 386 556 386" stroke="url(#blueGlow)" stroke-width="6" stroke-linecap="round" />
+  <path d="M262 486C320 456 360 468 404 462C454 454 494 424 548 424" stroke="#B68DFF" stroke-opacity="0.72" stroke-width="4" stroke-linecap="round" />
+  <circle cx="316" cy="402" r="12" fill="url(#whatsapp)" />
+  <circle cx="455" cy="454" r="12" fill="#7CC4FF" />
+  <circle cx="548" cy="424" r="12" fill="#B68DFF" />
+
+  <rect x="614" y="240" width="100" height="250" rx="26" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.08)" />
+  <rect x="634" y="292" width="60" height="22" rx="11" fill="#EAF2FF" fill-opacity="0.78" />
+  <rect x="634" y="336" width="82" height="14" rx="7" fill="#EAF2FF" fill-opacity="0.34" />
+  <rect x="634" y="366" width="54" height="14" rx="7" fill="#EAF2FF" fill-opacity="0.26" />
+  <rect x="634" y="406" width="72" height="14" rx="7" fill="#EAF2FF" fill-opacity="0.22" />
+
+  <path d="M838 230C848 216 866 206 884 206H936C953 206 970 217 977 233L1004 294C1009 307 1009 321 1003 334L972 401C966 415 953 424 938 424H870C856 424 844 417 837 405L802 347C794 334 794 318 801 305L838 230Z" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.08)" />
+  <path d="M853 259C862 248 877 242 892 242H930C943 242 956 249 962 261L978 294C983 304 983 316 978 326L962 357C956 369 943 376 930 376H893C879 376 867 369 860 357L844 327C837 313 838 296 847 283L853 259Z" fill="url(#purpleGlow)" />
+  <circle cx="903" cy="308" r="28" fill="url(#whatsapp)" fill-opacity="0.95" />
+  <path d="M893 307L901 316L915 301" stroke="#071427" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" />
+
+  <rect x="330" y="532" width="392" height="182" rx="32" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.08)" />
+  <path d="M382 672C408 619 438 604 475 604H639C679 604 714 623 734 653" stroke="url(#blueGlow)" stroke-width="8" stroke-linecap="round" />
+  <path d="M426 650C448 628 463 618 487 618H626C658 618 684 629 699 651" stroke="#B68DFF" stroke-width="4" stroke-linecap="round" stroke-opacity="0.85" />
+  <rect x="434" y="650" width="172" height="34" rx="17" fill="#EAF2FF" fill-opacity="0.18" />
+  <rect x="616" y="650" width="92" height="34" rx="17" fill="#7CC4FF" fill-opacity="0.22" />
+
+  <g transform="translate(462 520)">
+    <path d="M0 120C18 72 63 40 118 40H170C199 40 221 55 233 80L247 110C257 129 246 152 224 157H40C14 157 -9 138 0 120Z" fill="url(#chair)" />
+    <rect x="70" y="0" width="80" height="44" rx="22" fill="rgba(255,255,255,0.75)" fill-opacity="0.16" />
+    <rect x="30" y="84" width="200" height="28" rx="14" fill="rgba(255,255,255,0.16)" />
+    <rect x="94" y="150" width="28" height="70" rx="14" fill="rgba(255,255,255,0.20)" />
+    <rect x="148" y="150" width="28" height="70" rx="14" fill="rgba(255,255,255,0.20)" />
+    <circle cx="202" cy="74" r="20" fill="#7CC4FF" fill-opacity="0.92" />
+    <circle cx="202" cy="74" r="8" fill="#EAF2FF" fill-opacity="0.92" />
+  </g>
+
+  <circle cx="404" cy="260" r="58" fill="#7CC4FF" fill-opacity="0.12" />
+  <circle cx="404" cy="260" r="34" fill="#B68DFF" fill-opacity="0.16" />
+  <rect x="370" y="226" width="68" height="68" rx="20" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.08)" />
+  <path d="M388 266L402 252L416 266" stroke="#EAF2FF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M388 280L402 266L416 280" stroke="#EAF2FF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" opacity="0.7" />
+</svg>
